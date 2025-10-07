@@ -8,7 +8,7 @@ from keras.models import Sequential, load_model
 from keras.layers import Embedding, Bidirectional, LSTM, Dense, SpatialDropout1D
 import pickle
 
-data = pd.read_csv('C:/Users/agast/OneDrive/Desktop/DPBH/python/dataset.csv')
+data = pd.read_csv('C:/Users/raksha/OneDrive/Desktop/DPBH/python/dataset.csv')
 
 label_encoder = LabelEncoder()
 data['label'] = label_encoder.fit_transform(data['label'])
