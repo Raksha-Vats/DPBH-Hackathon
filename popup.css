@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}   
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    width: 350px;
+    padding: 6px 5px;
+    background-color: #426ea128;
+  }
+
+.main{
+    background-image: url("https://transparenttextures.com/patterns/cubes.png");
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: 2px solid rgba(95, 152, 250, 0.112);
+    height: 100%;
+}
+
+.head{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    background-color: #74EBD5;
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+    border-radius: 15px;
+    margin: 5px 4px;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#head-logo{
+    width: 14%;
+    height: 14%;
+}
+#head-title{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.content{
+    padding: 10px 5px 10px;
+}
+.boxes{
+    border: 2px solid rgb(34, 37, 37);
+    border-radius: 10px;
+    margin: 5px 6px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition-duration: 100ms;
+}
+.boxes:hover{
+    opacity: 0.8;
+}
+.boxes h2{
+    font-size: 1rem;
+    font-family: 'Nunito', sans-serif;
+
+}
+#age-value{
+    font-size: 0.9rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    color: rgb(68, 65, 65);
+}
+
+#more{
+    padding: 5px 12px 2px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    font-family: 'PT Sans Narrow', sans-serif;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+hr{
+    width: 80%;
+    height: 3px;
+    border-radius: 5px;
+    color: rgb(1, 55, 22);
+    background-color:rgb(1, 55, 22) ;
+    margin-left: 12px;
+}
+
+.buttons{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#price-trend,#ssl,#not_per{
+    margin: 4px 10px;
+    padding: 5px 0px;
+    font-size: 1rem;
+    font-family: 'Chakra Petch', sans-serif;
+    background-color: rgb(13, 53, 53);
+    color: white;
+    border-radius: 10px;
+    transition-duration: 100ms;
+}
+#not_per:hover{
+    cursor: pointer;
+    scale: 1.02;
+    background-color: rgba(13, 53, 53, 0.92);
+}
+#ui_decep{
+    margin: 4px 10px;
+    padding: 5px 0px;
+    font-size: 1rem;
+    font-family: 'Chakra Petch', sans-serif;
+    background-color: rgb(13, 53, 53);
+    color: white;
+    border-radius: 10px;
+    transition-duration: 100ms;
+}
+#ui_decep:hover,#ch_redi:hover{
+    cursor: pointer;
+    scale: 1.02;
+    background-color: rgba(13, 53, 53, 0.92);
+}
+#ch_redi{
+    margin: 4px 10px;
+    padding: 5px 0px;
+    font-size: 1rem;
+    font-family: 'Chakra Petch', sans-serif;
+    background-color: rgb(13, 53, 53);
+    color: white;
+    border-radius: 10px;
+    transition-duration: 100ms;
+}
+#price-trend{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3px 0px;
+    margin: 4px 10px;
+    font-size: 1rem;
+    border-radius: 10px;
+    transition-duration: 100ms;
+}
+#price-trend:hover{
+    scale: 1.02;
+    cursor: pointer;
+}
+
+#price-name{
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 800;
+}
+
+#loadingspinner{
+    padding: 5px;
+}
+#loading-spinner {
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    border-top: 4px solid #007a56;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+    margin: 0 auto;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
